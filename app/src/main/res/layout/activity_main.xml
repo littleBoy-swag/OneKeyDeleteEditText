@@ -6,10 +6,29 @@
     android:layout_height="match_parent"
     tools:context="cn.edu.hhu.panfei.onekeydeleteedittext.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <CustomView.OneKeyDeleteEditText
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Hello World!"
+
+        app:ic_left_click="@drawable/ic_left_click"
+        app:ic_left_unclick="@drawable/ic_left_unclick"
+        app:left_x="0"
+        app:left_y="0"
+        app:left_width="60"
+        app:left_height="60"
+
+        app:ic_delete="@drawable/delete"
+        app:delete_x="0"
+        app:delete_y="0"
+        app:delete_width="80"
+        app:delete_height="80"
+
+        app:lineColor_click="@color/linecolor_click"
+        app:lineColor_unclick="@color/colorPrimary"
+
+
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
